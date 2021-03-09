@@ -1,0 +1,82 @@
+#nav{
+	border: 1px solid black;
+	height:50px;
+	width:500px;
+	background-color:white;
+	margin:0px auto;
+}
+#nav ul{
+	list-style-type:none;
+}
+#nav ul li{
+	width:70px;
+	display:inline-table;
+	padding:3px;
+}
+#footer ul li{
+	display:inline-table;
+	padding:3px;
+}
+#container{
+	border: 1px outset black;
+	height:5000px;
+	width: 1000px;
+	position:relative;
+	margin:0px auto;
+	text-align:center;
+	background-color:white;
+}
+#footer{
+	margin:0px auto;
+	text-align:center;
+	text-align:bottom;
+	text-align:inline;
+}
+#nav ul li a:link{
+	text-decoration:none;
+	color:green;
+}
+#nav ul li a:visited{
+	text-decoration:none;
+	color:red;
+}
+#nav ul li a:active{
+	text-decoration:none;
+	color:green;
+}
+
+
+#imagem{
+	text-align:left;
+}
+body{
+	background-color:;
+}
+p{
+	color:blue;
+}
+#h2{
+	text-align:center;
+	color:Black;
+	font-style:Arial;
+}
+#imagem2{
+	text-align:center;
+	margin:0px auto;
+	text-align:top;
+}
+#Image{
+	text-align:center;
+}
+body{
+	display:center;
+	flex-direction:center;
+	justify-content:center;
+	align-items:center;
+}
+#tools{
+	text-align:center;
+}
+List{
+	text-align:inline;
+}

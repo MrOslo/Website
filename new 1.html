@@ -1,0 +1,197 @@
+<!-- Neste trabalho eu fiz a transição de imagem com a duração de 4s, e adicionei os botões para as trocas de imagem, o ficheiro js não foi criado porque usei js interno.
+
+Tenho dúvidas em como usar o CLearInterval e por isso não o consegui usar, e gostaria de ajuda por parte do professor, para ver se me dá uma luz de como o usar.--->  
+
+
+
+
+
+
+
+ <!DOCTYPE html
+
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org//1999!xhtml">
+
+
+
+<html>
+
+<head>
+
+<title>Homepage</title>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<meta name="kwrd" content="store, Pc´s, computer, sell, buy, cheap" /><!-- kwrd= Keyword-->
+
+<meta name="desc" content="Online Store for computers" /><!-- desc= description-->
+
+<meta name="author" content="Evanderson Fortunato" />
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script type="text/javascript">
+
+
+
+	var banner= setInterval("Slide1",4000);
+
+
+
+	function Slide1(){
+
+	document.getElementById('id').src="destaque-home.png";
+
+	setInterval("Slide2()",4000)
+
+	}
+
+	function Slide2(){
+
+	document.getElementById('id'). src="destaque-home-2.png";
+
+	setInterval("Slide1()",4000)}
+
+	
+
+	function Stop(){
+
+	clearInterval(Slide1);
+
+	}
+
+	
+
+	
+
+	
+
+
+
+	
+
+</script>
+
+
+
+</head>
+
+<body>
+
+<!--Logo fictício-->
+
+<div id="imagem">
+
+		  <img src="images.jpg" widht="50px" height="50px" alt="logo" title="logo"/>
+
+		  </div>
+
+<!--Imagem do topo-->
+
+<div id="imagem2">
+
+		   <img src="images(1).png" widht="500px" height="500px" alt="imagem da homepage" title="imagem da homepage"/>
+
+		   </div>
+
+<h1>Homepage</h1>
+
+<!--Banners---------->
+
+
+
+	<body onload="Slide1()">
+
+	<img id='id'>
+
+	
+
+	<body onload="comeco();regular()">
+
+	<div id="tools">
+
+	<input type="button" value="recuar"
+
+	onclick="Slide1();">
+
+	<input type="button" value="Parar" onclick="Stop();">
+
+	
+
+	<input type="button" value="avançar" onclick="Slide2();">
+
+	
+
+	</div>
+
+	
+
+
+
+<!--Barra do Menu-->
+
+<div id="nav">
+
+     <ul>
+
+         <li><a href="index.html.html">Homepage</a><br /></li>
+
+         <li><a href="about.html.html"> Sobre </a><br /></li>
+
+         <li><a href="contact.html.html"> Contacto </a></li>
+
+		  <li><a href="catalogo.html">Catalogo</a></li>
+
+		  <li><a href="Tempprincipal.html">TempPrincipal</a></li>
+
+	 </ul> 
+
+<!--Imagens do Meio da Homepage-->	 
+
+ <div id="Image">
+
+ 
+
+ <img src="imagem10.jpg" widht="250px" height="250x" alt="imagem 1" title="imagem 1"/><br />
+
+ <p>A melhor loja online</p>
+
+ 
+
+ <img src="images4.jpg" widht="350px" height="300px" alt="imagem 2" title="imagem 2"/>
+
+</div>
+
+<!--Footer-->
+
+<div id="footer">
+
+<ul>
+
+<li><a href="http://www.facebook.com">Facebook</a><br /></li>
+
+<li><a href="http://www.Instagram.com">Instagram</a><br /></li>
+
+<li><a href="http://www.twitter.com">Twitter</a><br /></li>
+
+<li><a href="http://www.youtube.com">Youtube</a></li>
+
+</ul>
+
+
+
+</div>		   
+
+		 
+
+     
+
+   
+
+ </body>
+
+ </html>	
